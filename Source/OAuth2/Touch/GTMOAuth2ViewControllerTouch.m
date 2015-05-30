@@ -251,8 +251,10 @@ static GTMOAuth2Keychain* gGTMOAuth2DefaultKeychain = nil;
 }
 
 + (NSBundle *)authNibBundle {
-  // subclasses may override this to specify a custom nib bundle
-  return nil;
+  // subclasses may override this to specify a custom nib bundle    
+  NSString *frameworkBundleID = @"com.zubala.GoogleSpreadsheets";
+  NSBundle *frameworkBundle = [NSBundle bundleWithIdentifier:frameworkBundleID];
+  return frameworkBundle;
 }
 
 #if !GTM_OAUTH2_SKIP_GOOGLE_SUPPORT

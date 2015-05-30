@@ -113,16 +113,16 @@ static NSMutableDictionary *gCalendarsForTimeZones = nil;
   NSDateComponents *oldDateComponents = [self dateComponents];
 
 // TODO: Experiments show it lies in 10.4.8 commented out for now.
-  if (NO && [NSDateComponents conformsToProtocol:@protocol(NSCopying)]) {
-
-    newDateComponents = [[oldDateComponents copyWithZone:zone] autorelease];
-
-  } else {
+//  if (NO && [NSDateComponents conformsToProtocol:@protocol(NSCopying)]) {
+//
+//    newDateComponents = [[oldDateComponents copyWithZone:zone] autorelease];
+//
+//  } else {
     // NSDateComponents doesn't implement NSCopying in 10.4. We'll just retain
     // it, which is fine since we never set individual components
     // except after allocating a new NSDateCompoents instance.
     newDateComponents = oldDateComponents;
-  }
+//  }
   [newObj setDateComponents:newDateComponents];
 
   return newObj;
