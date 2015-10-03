@@ -1,10 +1,12 @@
-Google Data APIs Objective-C Client Library
-Framework Release Notes
+# Google Data APIs Objective-C Client Library #
 
-Project site:     http://code.google.com/p/gdata-objectivec-client/
-Discussion group: http://groups.google.com/group/gdata-objectivec-client-framework
+**Project site** <https://github.com/google/gtm-oauth><br>
+**Discussion group** <http://groups.google.com/group/gdata-objectivec-client-framework>
 
-Changed since 1.12.0
+
+## Release History ##
+
+**Changed since 1.12.0**
 
 Additions
 
@@ -65,8 +67,8 @@ Bugs Fixed
 - Fixed waitForTicket's return value on delete fetches (thanks superbil)
 
 
-Release 1.12.0
-8-April-2011
+**Release 1.12.0**<br>
+8-April-2011<br>
 Changes since 1.11.0
 
 Additions
@@ -110,8 +112,8 @@ Bugs Fixed
   (thanks ehoracek)
 
 
-Release 1.11.0
-1-December-2010
+**Release 1.11.0**<br>
+1-December-2010<br>
 Changes since 1.10.0
 
 Additions
@@ -167,8 +169,8 @@ Bugs Fixed
 - Fixed release on failure to init a GDataXMLDocument (thanks Valentinians)
 
 
-Release 1.10.0
-31-March-2010
+**Release 1.10.0**<br>
+31-March-2010<br>
 Changes since 1.9.1
 
 Additions
@@ -261,8 +263,8 @@ Bugs Fixed
 - Fixed potential fetcher crash on explicit stopFetching call.
 
 
-Release 1.9.1
-30-October-2009
+**Release 1.9.1**<br>
+30-October-2009<br>
 Changes since 1.9.0
 
 Additions
@@ -280,8 +282,8 @@ Bugs Fixed
   start at iPhone OS 3. (thanks christophvz)
 
 
-Release 1.9.0
-28-October-2009
+**Release 1.9.0**<br>
+28-October-2009<br>
 Changes since 1.8.0
 
 Additions
@@ -376,8 +378,8 @@ Bugs Fixed
   (thanks cnoble)
 
 
-Release 1.8.0
-24-July-2009
+**Release 1.8.0**<br>
+24-July-2009<br>
 Changes since 1.7.0
 
 Additions
@@ -457,8 +459,8 @@ Bugs Fixed
   single-entry feed (thanks drjpierce)
 
 
-Release 1.7.0
-12-March-2009
+**Release 1.7.0**<br>
+12-March-2009<br>
 Changes since 1.6.0
 
 Additions
@@ -516,8 +518,8 @@ Bugs Fixed
 - Fixed possibiilty of If-modified-since header being added to http deletes
 
 
-Release 1.6.0
-30-January-2009
+**Release 1.6.0**<br>
+30-January-2009<br>
 Changes since 1.5.0
 
 Additions
@@ -611,8 +613,8 @@ Bugs Fixed
 - Fixed localhost cookie handling under 10.5.6
 
 
-Release 1.5.0
-23-October-2008
+**Release 1.5.0**<br>
+23-October-2008<br>
 Changes since 1.4.0
 
 Additions
@@ -727,8 +729,8 @@ Bugs fixed
   immutable
 
 
-Release 1.4.0
-19-March-2008
+**Release 1.4.0**<br>
+19-March-2008<br>
 Changes since 1.3.0
 
 Additions
@@ -798,8 +800,8 @@ Bugs fixed
 - Removed the deprecated, never-used gd:contactSection support
 
 
-Release 1.3.0
-5-December-2007
+**Release 1.3.0**<br>
+5-December-2007<br>
 Changes since 1.2.0
 
 Additions
@@ -878,8 +880,8 @@ Bugs Fixed
 - Fixed setting the ticket error on authentication errors.
 
 
-Release 1.2.0
-15-August-2007
+**Release 1.2.0**<br>
+15-August-2007<br>
 Changes since 1.1.0
 
 Additions
@@ -955,8 +957,8 @@ Bugs Fixed
   (thanks ghulands)
 
 
-Release 1.1.0
-4-June-2007
+**Release 1.1.0**<br>
+4-June-2007<br>
 Changes since 1.0.0
 
 - Added photos, media, and geo data classes, and Picasa Web Albums service
@@ -988,7 +990,7 @@ Changes since 1.0.0
   name (thanks iwankerl)
 
 
-Release 1.0.0
+**Release 1.0.0**<br>
 16-April-2007
 
 Initial public release.  Includes standard base elements, entry, feed,
